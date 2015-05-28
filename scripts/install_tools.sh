@@ -36,4 +36,6 @@ tar xvjf ${PHANTOM_JS}.tar.bz2
 ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/share/phantomjs
 ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin/phantomjs
 ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/bin/phantomjs
+# maven 3
+apt-get install -y maven
 
