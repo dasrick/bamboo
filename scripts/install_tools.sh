@@ -39,6 +39,6 @@ ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/bin/phantomjs
 
 # PHP 5.6
 apt-get -y install python-software-properties
-add-apt-repository -y ppa:ondrej/php5-5.6
+add-apt-repository -y --force-yes ppa:ondrej/php5-5.6
 apt-get -y update
 apt-get -y install php5 php5-mhash php5-mcrypt php5-curl php5-cli php5-mysql php5-gd php5-intl
